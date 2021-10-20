@@ -1,0 +1,95 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.4 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         Dynamic DC of circuito1                          ***
+***                           09/06/2021 12:29:15                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1          -800.000m  2            25.000  
+
+
+Operating Point for Devices of Type Mosfet NMOS
+===============================================
+Instance:               M1
+Using model:        LND150
+
+Capacitance Terms:
+CBD                 0.000 
+CBS                 0.000 
+CGSOVL            305.400f
+CGDOVL              1.303f
+CGBOVL              0.000 
+CGS                 1.381p
+CGD                 0.000 
+CGB                 0.000 
+
+Conductance Terms:
+GM                  1.834m
+GDS               433.397n
+GMBS               81.764u
+
+Current Terms:
+ID                972.958u
+
+Voltage Terms:
+VGS              -800.000m
+VDS                25.000 
+VBS                 0.000 
+VGB              -800.000m
+VGD               -25.800 
+VDB                25.000 
+VTH                -1.971 
+VDSAT               1.026 
+
+Power DC Terms:
+PD                 24.324m
+PS                  0.000 
+
+DC Pin Currents:
+Ig                  0.000 
+Id                972.958u
+Is               -972.958u
+Ib                -25.127p
+
+Condition:
+State                  SAT
+
+Device Variables:
+m                   1.000 
+l                   0.000 
+w                   0.000 
+ad                  0.000 
+as                  0.000 
+pd                  0.000 
+ps                  0.000 
+nrd                 0.000 
+nrs                 0.000 
+nrb                 0.000 
+nrg                 0.000 
+vds                 0.000 
+vgs                 0.000 
+vbs                 0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:              VGG           VDD
+V                -800.000m       25.000 
+Power DC Terms:
+PG                  0.000        24.324m
+
+DC Pin Currents:
+ISource             0.000      -972.958u
+
+

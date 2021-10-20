@@ -1,0 +1,103 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.4 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         Dynamic DC of circuito4                          ***
+***                           12/05/2021 17:46:20                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             1.500   2             1.418u  3           764.668m 
+4             0.000   IN            0.000   OUT           0.000  
+
+
+Operating Point for Devices of Type Jfet NJF
+============================================
+Instance:           MPF102
+Using model:        MPF102
+
+Capacitance Terms:
+CGS                 1.813p
+CGD                 1.089p
+
+Conductance Terms:
+GM                  1.957m
+GDS               893.838m
+
+Current Terms:
+ID                  3.059m
+
+Voltage Terms:
+VGS              -764.667m
+VDS               735.332m
+VGD                -1.500 
+
+Power DC Terms:
+PD                  2.249m
+PS                  0.000 
+
+DC Pin Currents:
+Ig                 -3.017p
+Id                  3.059m
+Is                 -3.059m
+
+Condition:
+State                  LIN
+
+Device Variables:
+area                1.000 
+vds                 0.000 
+vgs                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                RS           RIS            RG            RL
+V                  764.668m        0.000         1.418u        0.000 
+Power DC Terms:
+PD                   2.339m        0.000         0.004f        0.000 
+
+DC Pin Currents:
+Ir                   3.059m        0.000         3.017p        0.000 
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                CI            CO
+V                   -1.418u      764.668m
+Power DC Terms:
+PS                   0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:              VDD            VS
+V                   1.500         0.000 
+Power DC Terms:
+PG                  4.588m        0.000 
+
+DC Pin Currents:
+ISource            -3.059m        0.000 
+
+

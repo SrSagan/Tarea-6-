@@ -1,0 +1,184 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.4 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                          Dynamic DC of punto 8                           ***
+***                           13/06/2021 18:31:18                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            30.000   2            19.118   X1.11        20.940  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:         X1.DBODY
+Using model:       X1.DMOS
+
+Capacitance Terms:
+CAP                 0.001f
+
+Current Terms:
+ID                -11.270p
+
+Resistance Terms:
+REQ                 1.000T
+
+Voltage Terms:
+VD                -10.882 
+
+Power DC Terms:
+PD                122.642p
+PS                  0.000 
+
+DC Pin Currents:
+Id                -11.270p
+
+Condition:
+State                  OFF
+
+Device Variables:
+area                1.000 
+ic                  0.000 
+
+
+
+Operating Point for Devices of Type Jfet NJF
+============================================
+Instance:          X1.JFET
+Using model:       X1.JMOD
+
+Capacitance Terms:
+CGS                 0.000 
+CGD                 0.000 
+
+Conductance Terms:
+GM                  1.955 
+GDS                 0.000 
+
+Current Terms:
+ID                955.790m
+
+Voltage Terms:
+VGS                -1.822 
+VDS                 9.060 
+VGD               -10.882 
+
+Power DC Terms:
+PD                  8.659 
+PS                  0.000 
+
+DC Pin Currents:
+Ig                -44.315p
+Id                955.790m
+Is               -955.790m
+
+Condition:
+State                  HOT
+
+Device Variables:
+area                1.000 
+vds                 0.000 
+vgs                 0.000 
+
+
+
+Operating Point for Devices of Type Mosfet NMOS
+===============================================
+Instance:          X1.MOS1
+Using model:    X1.ND_DMOS
+
+Capacitance Terms:
+CBD                19.254p
+CBS                 1.000f
+CGSOVL            232.000p
+CGDOVL             19.952p
+CGBOVL              0.000 
+CGS                65.758p
+CGD                15.363p
+CGB                 0.000 
+
+Conductance Terms:
+GM                366.511m
+GDS               126.648m
+GMBS                6.883m
+
+Current Terms:
+ID                955.880m
+
+Voltage Terms:
+VGS                 0.000 
+VDS                 1.822 
+VBS                 0.000 
+VGB                 0.000 
+VGD                -1.822 
+VDB                 1.822 
+VTH                -2.355 
+VDSAT               2.118 
+
+Power DC Terms:
+PD                  1.742 
+PS                  0.000 
+
+DC Pin Currents:
+Ig                  0.000 
+Id                955.880m
+Is               -955.880m
+Ib                -11.823p
+
+Condition:
+State                  HOT
+
+Device Variables:
+m                   1.000 
+l                   2.500u
+w                  58.000m
+ad                  0.000 
+as                  0.000 
+pd                  0.000 
+ps                  0.000 
+nrd                 0.000 
+nrs                 0.000 
+nrb                 0.000 
+nrg                 0.000 
+vds                 0.000 
+vgs                 0.000 
+vbs                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                RL         VRL.R         VDS.R          X1.R
+V                   19.118        19.118        10.882         9.060 
+Power DC Terms:
+PD                  18.274       365.483p      118.427p      820.843u
+
+DC Pin Currents:
+Ir                 955.880m       19.118p       10.882p       90.600u
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:              VDD         VRL.V         VDS.V
+V                  30.000         0.000         0.000 
+Power DC Terms:
+PG                 28.676         0.000         0.000 
+
+DC Pin Currents:
+ISource          -955.880m       -3.725n       10.882p
+
+

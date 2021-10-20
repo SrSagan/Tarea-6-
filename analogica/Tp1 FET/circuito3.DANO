@@ -1,0 +1,99 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.4 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         Dynamic AC of circuito3                          ***
+***                           08/05/2021 18:14:26                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+AC Voltages at Frequency=1e+006 (Mag, Degrees)
+==============================================
+Node                 Voltage  Node                 Voltage 
+1                          0  2              1.783,179.18° 
+3        996.554m,-656.376m°  4          190.882u,-90.634° 
+5                          1  IN       997.794m,-669.419m° 
+OUT           1.783,179.194° 
+
+
+AC values for Jfet NJF (Mag, Degrees)
+=====================================
+Instance:                  MPF102
+Using model:               MPF102
+
+Power AC Terms:
+PD                 2.285m,0.085f°
+PS                   15.605u,-90°
+
+AC Pin Currents:
+Ig                11.683u,89.243°
+Id              3.958m,-813.803m°
+Is                3.958m,179.355°
+
+Device Variables:
+area                       1.000 
+vds                        0.000 
+vgs                        0.000 
+
+
+
+AC values for Resistor (Mag, Degrees)
+=====================================
+Instance:                       RD                   RS                  RIS
+
+Power AC Terms:
+PD                          1.939m              72.872p              70.536n
+
+AC Pin Currents:
+Ir                  2.175m,179.18°    763.527n,-90.634°      11.877u,78.959°
+
+Device Variables:
+tc1                         0.000                0.000                0.000 
+tc2                         0.000                0.000                0.000 
+
+
+Instance:                       RG                   RL
+
+Power AC Terms:
+PD                   1.057u,0.09f°                1.59m
+
+AC Pin Currents:
+Ir                2.12u,-656.376m°    1.783m,-806.435m°
+
+Device Variables:
+tc1                         0.000                0.000 
+tc2                         0.000                0.000 
+
+
+
+AC values for Capacitor (Mag, Degrees)
+======================================
+Instance:                       CI                   CS                   CO
+
+Power AC Terms:
+PS                     7.484n,-90°        377.739n,-90°        372.118n,-90°
+
+AC Pin Currents:
+Ic                 11.877u,78.959°    3.958m,-633.622m°      1.783m,179.194°
+
+Device Variables:
+ic                          0.000                0.000                0.000 
+
+
+
+AC values for SPICE Source (Mag, Degrees)
+=========================================
+Instance:                     VDD                   VS
+
+Power AC Terms:
+PG                              0      5.939u,-78.959°
+
+AC Pin Currents:
+ISource            2.175m,179.18°    11.877u,-101.041°
+
+

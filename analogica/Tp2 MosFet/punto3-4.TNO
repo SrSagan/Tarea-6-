@@ -1,0 +1,145 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.4 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                      Transient Analysis of punto3-4                      ***
+***                           09/06/2021 16:00:37                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           1m
+Output Start Time (tstart) 0
+Maximum Time Step          0.5u
+Number of Points           0
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            20.000   2             3.099   3             1.966  
+VIN           0.000   VOUT          0.000  
+
+
+Operating Point for Devices of Type Mosfet NMOS
+===============================================
+Instance:               M1
+Using model:        LND150
+
+Capacitance Terms:
+CBD                 0.000 
+CBS                 0.000 
+CGSOVL            305.400f
+CGDOVL              1.303f
+CGBOVL              0.000 
+CGS                 1.381p
+CGD                 0.000 
+CGB                 0.000 
+
+Conductance Terms:
+GM                  4.144m
+GDS               979.062n
+GMBS              119.153u
+
+Current Terms:
+ID                  4.914m
+
+Voltage Terms:
+VGS                 1.133 
+VDS                18.034 
+VBS                 0.000 
+VGB                 1.133 
+VGD               -16.901 
+VDB                18.034 
+VTH                -1.941 
+VDSAT               2.319 
+
+Power DC Terms:
+PD                 88.623m
+PS                  0.000 
+
+DC Pin Currents:
+Ig                  0.000 
+Id                  4.914m
+Is                 -4.914m
+Ib                -18.595p
+
+Condition:
+State                  SAT
+
+Device Variables:
+m                   1.000 
+l                   0.000 
+w                   0.000 
+ad                  0.000 
+as                  0.000 
+pd                  0.000 
+ps                  0.000 
+nrd                 0.000 
+nrs                 0.000 
+nrb                 0.000 
+nrg                 0.000 
+vds                 0.000 
+vgs                 0.000 
+vbs                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                RS           RG2            RL           RG1
+V                    1.966         3.099         0.000        16.901 
+Power DC Terms:
+PD                   9.659m        2.909m        0.000        15.870m
+
+DC Pin Currents:
+Ir                   4.914m      938.967u        0.000       938.967u
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                CI            CO
+V                   -3.099         1.966 
+Power DC Terms:
+PS                   0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:              VDD            VS
+V                  20.000         0.000 
+Power DC Terms:
+PG                117.062m        0.000 
+
+DC Pin Currents:
+ISource            -5.853m        0.000 
+
+
