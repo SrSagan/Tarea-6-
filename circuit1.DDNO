@@ -1,0 +1,112 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.4 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                          Dynamic DC of circuit1                          ***
+***                           09/06/2021 13:45:19                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            12.141   2             3.099   3             1.965  
+4            20.000  
+
+
+Operating Point for Devices of Type Mosfet NMOS
+===============================================
+Instance:               M1
+Using model:        LND150
+
+Capacitance Terms:
+CBD                 0.000 
+CBS                 0.000 
+CGSOVL            305.400f
+CGDOVL              1.303f
+CGBOVL              0.000 
+CGS                 1.381p
+CGD                 0.000 
+CGB                 0.000 
+
+Conductance Terms:
+GM                  4.143m
+GDS               978.828n
+GMBS              119.141u
+
+Current Terms:
+ID                  4.912m
+
+Voltage Terms:
+VGS                 1.134 
+VDS                10.176 
+VBS                 0.000 
+VGB                 1.134 
+VGD                -9.043 
+VDB                10.176 
+VTH                -1.939 
+VDSAT               2.318 
+
+Power DC Terms:
+PD                 49.984m
+PS                  0.000 
+
+DC Pin Currents:
+Ig                  0.000 
+Id                  4.912m
+Is                 -4.912m
+Ib                -10.737p
+
+Condition:
+State                  SAT
+
+Device Variables:
+m                   1.000 
+l                   0.000 
+w                   0.000 
+ad                  0.000 
+as                  0.000 
+pd                  0.000 
+ps                  0.000 
+nrd                 0.000 
+nrs                 0.000 
+nrb                 0.000 
+nrg                 0.000 
+vds                 0.000 
+vgs                 0.000 
+vbs                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                RD           RG1            RS           RG2         VDS.R
+V                    7.859        16.901         1.965         3.099        10.176 
+Power DC Terms:
+PD                  38.601m       15.870m        9.650m        2.909m      103.560p
+
+DC Pin Currents:
+Ir                   4.912m      938.967u        4.912m      938.967u       10.176p
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:              VDD         VDS.V
+V                  20.000         0.000 
+Power DC Terms:
+PG                117.015m        0.000 
+
+DC Pin Currents:
+ISource            -5.851m       10.176p
+
+
