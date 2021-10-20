@@ -1,0 +1,1 @@
+var _auth0_conf={"api":"https:\/\/api-editoriales.clarin.com\/api\/user-data\/v3\/public\/profile","issuer":"micuenta.clarin.com","audience":"https:\/\/clarin.com","domain_cla":"micuenta.clarin.com","client_id":"JcVh4TuQizfVZN1Qgtnf3cKP5vfZIV2k","apiKey":"clarin"};

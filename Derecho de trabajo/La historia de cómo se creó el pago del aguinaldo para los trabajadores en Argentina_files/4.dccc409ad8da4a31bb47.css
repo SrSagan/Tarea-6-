@@ -1,0 +1,23 @@
+.viafoura .vf-front-avatar[data-v-e654bb02] .vf-avatar__status-icon.vf-error{margin:0}
+
+.viafoura .viafoura-logo__logo[data-v-3f20ce66]{fill:#eb2427}
+
+.viafoura .vf-character-count[data-v-34ba636e]{padding:1px 7px;font-weight:600;font-size:0.715em;border-radius:10px;transition:background-color 1s ease;color:rgba(0,0,0,0.6);color:var(--light-text-on-background-color, rgba(0,0,0,0.6));background-color:rgba(204,73,73,0) ;background-color:var(--error-color-0, rgba(204,73,73,0))
+}.viafoura .vf-character-count--warning[data-v-34ba636e]{color:#b95000 ;color:var(--warning-color, #b95000)
+}.viafoura .vf-character-count--error[data-v-34ba636e]{color:#cc4949 ;color:var(--error-color, #cc4949)
+}.viafoura .vf-character-count--pulse[data-v-34ba636e]{background-color:rgba(204,73,73,0.2) ;background-color:var(--error-color-20, rgba(204,73,73,0.2)) ;color:#752121 ;color:var(--error-color-dark, #752121) ;transition:none}
+
+.viafoura .vf-branding-container[data-v-891eb87a]{display:flex;align-items:center;color:rgba(0,0,0,0.6);color:var(--light-text-on-background-color, rgba(0,0,0,0.6));font-size:0.857em}.viafoura .vf-branding-container>*+*[data-v-891eb87a]{margin-left:0.4em}.viafoura .vf-branding__logo[data-v-891eb87a]{height:1.3em}
+
+.viafoura .transition-wrapper[data-v-cf1d3914]{overflow:hidden}.viafoura .slide-in-out-enter-active--fast[data-v-cf1d3914],.viafoura .slide-in-out-leave-active--fast[data-v-cf1d3914]{transition:all 0.2s ease}.viafoura .slide-in-out-enter-active--slow[data-v-cf1d3914],.viafoura .slide-in-out-leave-active--slow[data-v-cf1d3914]{transition:all 0.4s ease}.viafoura .slide-in-out-enter-active--super-slow[data-v-cf1d3914],.viafoura .slide-in-out-leave-active--super-slow[data-v-cf1d3914]{transition:all 1s ease}.viafoura .slide-in-out-enter--top[data-v-cf1d3914],.viafoura .slide-in-out-leave-to--top[data-v-cf1d3914]{transform:translateY(-100%)}.viafoura .slide-in-out-enter--bottom[data-v-cf1d3914],.viafoura .slide-in-out-leave-to--bottom[data-v-cf1d3914]{transform:translateY(100%)}
+
+.viafoura .realtime-bar[data-v-4a26ffd7]{position:-webkit-sticky;position:sticky;left:0;z-index:7;display:flex;justify-content:center;width:100%;top:0rem ;top:var(--reserved-space-top, 0rem)
+}.viafoura .realtime-buttons-wrapper[data-v-4a26ffd7]{position:relative;display:flex;max-width:570px;margin:0 20px;border-radius:3px;box-shadow:0,0,40px,rgba(0,0,0,0.3);background-color:#fff;background-color:var(--background-color, #fff)}.viafoura .realtime-buttons-wrapper>*[data-v-4a26ffd7]{font-size:0.715em}.viafoura .realtime-buttons-wrapper--with-skip[data-v-4a26ffd7]{padding:0}.viafoura .realtime-bar-button--at-top[data-v-4a26ffd7]{border-radius:0 0 3px 3px}.viafoura .realtime-bar-button--at-top.realtime-bar-button--with-skip[data-v-4a26ffd7]:first-child{border-radius:0 0 0 3px}.viafoura .realtime-bar-button--at-top.realtime-bar-button--with-skip[data-v-4a26ffd7]:last-child{border-radius:0 0 3px 0}.viafoura .realtime-bar-button--at-bottom[data-v-4a26ffd7]{border-radius:3px 3px 0 0}.viafoura .realtime-bar-button--at-bottom.realtime-bar-button--with-skip[data-v-4a26ffd7]:first-child{border-radius:0 3px 0 0}.viafoura .realtime-bar-button--at-bottom.realtime-bar-button--with-skip[data-v-4a26ffd7]:last-child{border-radius:3px 0 0 0}.viafoura .realtime-main-button[data-v-4a26ffd7]{text-transform:uppercase}.viafoura .realtime-action-button[data-v-4a26ffd7]{text-transform:lowercase}.viafoura .realtime-action-button.is-cta.is-accent-color[data-v-4a26ffd7]:not([disabled]){background-color:rgba(0,116,232,0.9) ;background-color:var(--accent-color-90, rgba(0,116,232,0.9))
+}.viafoura .realtime-action-button__arrow[data-v-4a26ffd7]{position:relative;top:1px;padding-left:5px}
+
+.viafoura .vf-unseen-notifier[data-v-a0c780fa]{width:5px;height:5px;border-radius:50%}.viafoura .vf-unseen-notifier--accent[data-v-a0c780fa]{background-color:#007fff ;background-color:var(--accent-color-light, #007fff)
+}.viafoura .vf-unseen-notifier--mention[data-v-a0c780fa]{background-color:#1cbb98 ;background-color:var(--mention-color-light, #1cbb98)
+}
+
+
+/*# sourceMappingURL=4.dccc409ad8da4a31bb47.css.map*/
