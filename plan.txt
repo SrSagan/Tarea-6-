@@ -1,11 +1,11 @@
 Lenguajes electronicos: NO PREOCUPARSE - seguir las clases
 Derechos del trabajo: INDECISO - seguir las clases
-Sistemas productivos: HACER EL ULTIMO TP - despues no preocuparse
+Sistemas productivos: NO PREOCUPARSE
 Instalaciones maquinas electricas: PRUEBA ESTUDIAR MUCHO - si se pasa no preocuparse
-Sistemas de comunicaciones: RECUPERATORIO VIERNES ESTUDIAR MUCHO - si se pasa no preocuparse
+Sistemas de comunicaciones: SI SE PASA NO PREOCUPARSE
 Matematica: ESTUDIAR MUCHISIMO PRUEBA
 Arte: NO PREOCUPARSE - seguir las clases
-Filosofia: HACER ULTIMOS 3 TP
+Filosofia: HACER ULTIMOS 2 TP
 Ingles: NO PREOCUPARSE - hacer ultimo tp
 Literatura: SI SE PASA PRUEBA PONERLE MUCHA PILA
 
@@ -16,7 +16,7 @@ Montaje: TERMINAR PROYECTO -------\nose si se llega
 Analogica: NO PREOCUPARSE - seguir las clases
 
 Proyecto: correrlo en rbp3 
-hacer la plaqueta ayudar a solar y todo el tema
+hacer la plaqueta ayudar a soldar y todo el tema
 intentar armarlo hasta donde se llegue
 ----------------------REZAR--------------------------------
 comunicar el rbp con el esp, terminar codigo de esp
