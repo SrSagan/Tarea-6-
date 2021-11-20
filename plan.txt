@@ -1,12 +1,12 @@
-Lenguajes electronicos: NO PREOCUPARSE - seguir las clases
+Lenguajes electronicos: PRUEBA - estudiar un pco
 Derechos del trabajo: INDECISO - seguir las clases
 Sistemas productivos: NO PREOCUPARSE
-Instalaciones maquinas electricas: PRUEBA ESTUDIAR MUCHO - si se pasa no preocuparse
-Sistemas de comunicaciones: SI SE PASA NO PREOCUPARSE
-Matematica: ESTUDIAR MUCHISIMO PRUEBA
-Arte: NO PREOCUPARSE - seguir las clases
-Filosofia: HACER ULTIMOS 2 TP
-Ingles: NO PREOCUPARSE - hacer ultimo tp
+Instalaciones maquinas electricas: NO PREOCUPARSE
+Sistemas de comunicaciones: HACER LABORATORIO Y NO PREOCUPARSE
+Matematica: NO PREOCUPARSE
+Arte: NO PREOCUPARSE - hacer el tp
+Filosofia: HACER EL ULTIMO TP
+Ingles: NO PREOCUPARSE 
 Literatura: SI SE PASA PRUEBA PONERLE MUCHA PILA
 
 TALLER
